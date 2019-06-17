@@ -1,17 +1,58 @@
-# Chapter 1 - Matplotlib
+# Intermediate Python for Data Science
+
+## Chapter 1 - Matplotlib
+
+### Line plot
+
+```python
+
+import matplotlib.pyplot as plt
+plt.plot(x,y)
+plt.show()
 
 
--- to be merged from office
+```
 
+### Scatter Plot
 
+```python
 
+import matplotlib.pyplot as plt
+plt.scatter(x,y)
+plt.show()
 
+```
+### Build a histogram
 
+```python
 
+# Create histogram of life_exp data
+plt.hist(life_exp)
 
+# Display histogram
+plt.show()
+```
 
+### Build a histogram: bins
 
-## Labels
+```python
+
+# Build histogram with 5 bins
+plt.hist(life_exp, 5)
+
+# Show and clean up plot
+plt.show()
+plt.clf()
+
+# Build histogram with 20 bins
+plt.hist(life_exp, 20)
+
+# Show and clean up again
+plt.show()
+plt.clf()
+
+```
+### Labels
 
 As a first step, let's add axis labels and a title to the plot. 
 You can do this with the `xlabel()`, `ylabel()` and `title()` functions, 
@@ -41,7 +82,7 @@ plt.show()
 
 ```
 
-## Ticks
+### Ticks
 
 >> `plt.yticks([0,1,2], ["one","two","three"])`
 
@@ -69,7 +110,7 @@ plt.show()
 
 ```
 
-## Sizes
+### Sizes
 
 ```python
 
@@ -98,7 +139,7 @@ plt.show()
 
 ```
 
-## Colors
+### Colors
 
 The Gapminder data contains a list continent with the continent each country belongs to. A dictionary is constructed that maps continents onto colors:
 
@@ -132,7 +173,7 @@ plt.show()
 
 ```
 
-## Additional Customizations
+### Additional Customizations
 
 - add text 
  - add grid
