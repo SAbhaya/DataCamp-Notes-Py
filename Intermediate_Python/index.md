@@ -1,4 +1,4 @@
-* Dictionaries & Pandas
+# Dictionaries & Pandas
 * Dictionaries, Part 1
 50 XP
 * Motivation for dictionaries
