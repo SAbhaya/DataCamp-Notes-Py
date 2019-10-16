@@ -82,6 +82,8 @@ print(yell)
 
 ```
 
+### Functions with multiple parameters
+
 
 
 
