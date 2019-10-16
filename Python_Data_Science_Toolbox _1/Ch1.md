@@ -25,3 +25,24 @@ In [6]: type(x)
 Out[6]: float
 
 ```
+
+### Write a simple function
+
+```python
+
+# Define the function shout
+def shout():
+    """Print a string with three exclamation marks"""
+    # Concatenate the strings: shout_word
+    shout_word = 'congratulations' + '!'*3
+
+    # Print shout_word
+    print(shout_word)
+
+# Call shout
+shout()
+
+```
+### Single-parameter functions
+
+
